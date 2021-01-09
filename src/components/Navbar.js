@@ -44,7 +44,7 @@ const Navbar = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-20}
             duration={500}
           >
             Contact Us
