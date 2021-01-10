@@ -20,7 +20,8 @@
 }
 
 .footer-brand {
-  width: 300px;
+  width: 35%;
+  height: 100px;
 }
 
 .footer-company {
@@ -28,7 +29,8 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  width: 300px;
+  width: 30%;
+  height: 100px;
 }
 
 .footer-company p {
@@ -54,7 +56,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 300px;
+  width: 35%;
+  height: 100px;
 }
 
 .socials-title {
@@ -82,4 +85,39 @@
 
 .footer-bottom span {
   font-size: 12px;
+}
+
+@media (max-width: 648px) {
+  .footer-brand {
+    font-size: 10px;
+  }
+
+  .footer-company p {
+    font-size: 10px;
+  }
+
+  .footer-company li {
+    font-size: 10px;
+  }
+
+  .footer-bottom {
+    width: 100%;
+  }
+
+  .socials-title {
+    font-size: 10px;
+  }
+
+  .footer-bottom span {
+    font-size: 8px;
+  }
+
+  .social-svg {
+    height: 25px !important;
+    width: 25px !important;
+  }
+
+  .socials-container {
+    align-items: center;
+  }
 }
