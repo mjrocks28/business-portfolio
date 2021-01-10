@@ -10,8 +10,13 @@
   align-items: center;
 }
 
-.logo {
+.navbar .logo {
   cursor: pointer;
+  font-size: 16px;
+}
+
+.logo span {
+  color: #4eb5f1;
 }
 
 .active {

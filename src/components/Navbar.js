@@ -19,7 +19,7 @@ const Navbar = () => {
     <div>
       <div className="navbar">
         <a href="/#" onClick={scrollToTop} className="logo">
-          Begin PH
+          <span>Begin</span> PH
         </a>
 
         <a href="/#" className="toggle-button" onClick={handleClick}>

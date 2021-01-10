@@ -27,6 +27,10 @@
   width: 50%;
 }
 
+.title span {
+  color: #4eb5f1;
+}
+
 .title {
   font-size: 5em;
   color: rgb(255, 255, 255);
