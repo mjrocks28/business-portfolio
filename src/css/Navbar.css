@@ -64,9 +64,8 @@
   width: 100%;
   min-height: 160px;
   height: 160px;
-  margin-top: 10%;
+  top: 10vh;
   background-color: rgb(26, 26, 26);
-  transition: all 1s ease-out;
 }
 
 .mobile-nav-items {
@@ -102,10 +101,6 @@
 
   .logo {
     margin-left: 2rem;
-  }
-
-  .mobile-navbar {
-    transition: all 1s ease-out;
   }
 
   .mobile-active {

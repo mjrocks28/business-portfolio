@@ -3,12 +3,16 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import "../css/Navbar.css";
 
 const Navbar = () => {
-  const scrollToTop = () => {
+  const scrollToTop = (e) => {
+    e.preventDefault();
     scroll.scrollToTop();
   };
 
   const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
+  const handleClick = (e) => {
+    e.preventDefault();
+    setClick(!click);
+  };
   const closeMobileMenu = () => setClick(false);
 
   return (
