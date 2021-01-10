@@ -33,9 +33,27 @@ const Footer = () => {
           <p className="socials-title">Socials</p>
 
           <div className="socials-container">
-            <SocialIcon url="https://facebook.com" />
-            <SocialIcon url="https://instagram.com" />
-            <SocialIcon network="email" url="mj28_mendoza@icloud.com" />
+            <div>
+              <SocialIcon
+                url="https://facebook.com"
+                style={{ height: 25, width: 25 }}
+                label="Facebook Page"
+              />
+            </div>
+
+            <div>
+              <SocialIcon
+                url="https://instagram.com"
+                style={{ height: 25, width: 25 }}
+              />
+            </div>
+
+            <div>
+              <SocialIcon
+                url="mailto:mj28_mendoza@icloud.com"
+                style={{ height: 25, width: 25 }}
+              />
+            </div>
           </div>
         </div>
       </div>
