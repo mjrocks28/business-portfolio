@@ -57,7 +57,7 @@
 }
 
 .mobile-navbar {
-  position: absolute;
+  position: fixed;
   display: none;
   justify-content: space-around;
   align-items: center;
