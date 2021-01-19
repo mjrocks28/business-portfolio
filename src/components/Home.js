@@ -7,7 +7,7 @@ function Home() {
       <div className="home-contents">
         <div className="home-title">
           <h1 className="title">
-            <span>Begin</span> PH
+            <span>Tap Us</span> PH
           </h1>
           <span className="subtitle">Web Solutions</span>
         </div>
