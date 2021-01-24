@@ -36,6 +36,10 @@
   color: rgb(255, 255, 255);
 }
 
+.title .branding-img {
+  width: 500px;
+}
+
 .subtitle {
   font-size: 3em;
   color: rgb(212, 212, 212);

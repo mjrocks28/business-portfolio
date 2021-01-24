@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-top">
         <div className="footer-brand">
-          <h1>Begin PH</h1>
+          <h1>TapUs PH</h1>
           <span>Web Solutions</span>
         </div>
 
@@ -51,6 +51,14 @@ const Footer = () => {
             <div>
               <SocialIcon
                 url="mailto:mj28_mendoza@icloud.com"
+                style={{ height: 25, width: 25 }}
+              />
+            </div>
+
+            <div>
+              <SocialIcon
+                url="https://www.freepik.com/vectors/business"
+                title="Business vector created by pikisuperstar - www.freepik.com"
                 style={{ height: 25, width: 25 }}
               />
             </div>

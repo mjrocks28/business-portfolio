@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Home.css";
+import Branding from "../images/branding-transparent.png";
 
 function Home() {
   return (
@@ -7,9 +8,8 @@ function Home() {
       <div className="home-contents">
         <div className="home-title">
           <h1 className="title">
-            <span>Tap Us</span> PH
+            <img src={Branding} alt="tapusbranding" className="branding-img" />
           </h1>
-          <span className="subtitle">Web Solutions</span>
         </div>
         <button>Contact Us</button>
       </div>

@@ -15,6 +15,11 @@
   font-size: 16px;
 }
 
+.navbar .logo-img {
+  position: relative;
+  width: 200px;
+}
+
 .logo span {
   color: #4eb5f1;
 }

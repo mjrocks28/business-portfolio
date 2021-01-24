@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "../css/Navbar.css";
+import Logo from "../images/navbar-transparent.png";
 
 const Navbar = () => {
   const scrollToTop = (e) => {
@@ -19,7 +20,7 @@ const Navbar = () => {
     <div>
       <div className="navbar">
         <a href="/#" onClick={scrollToTop} className="logo">
-          <span>Tap Us</span> PH
+          <img src={Logo} alt="topuslogo" className="logo-img" />
         </a>
 
         <a href="/#" className="toggle-button" onClick={handleClick}>
