@@ -11,12 +11,15 @@
 .about-title {
   color: rgb(0, 0, 0);
   font-size: 3em;
+  margin-top: 20px;
 }
 
 .about-details {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .about-photo {
@@ -24,5 +27,21 @@
 }
 
 .details {
-  width: 50%;
+  margin: auto;
+  width: 400px;
+}
+
+@media all and (max-width: 850px) {
+  .about-details {
+    flex-direction: column;
+  }
+
+  .about-title {
+    font-size: 1.5em;
+  }
+
+  .details {
+    text-align: center;
+    width: 80%;
+  }
 }

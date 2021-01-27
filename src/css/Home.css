@@ -36,7 +36,7 @@
   color: rgb(255, 255, 255);
 }
 
-.title .branding-img {
+.branding-img {
   width: 500px;
 }
 
@@ -81,6 +81,10 @@ button:hover {
 
   .home-title {
     width: 70%;
+  }
+
+  .branding-img {
+    width: 250px;
   }
 }
 

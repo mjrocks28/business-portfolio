@@ -54,7 +54,9 @@ const Footer = () => {
                 style={{ height: 25, width: 25 }}
               />
             </div>
+          </div>
 
+          <div className="socials-container">
             <div>
               <SocialIcon
                 url="https://www.freepik.com/vectors/business"

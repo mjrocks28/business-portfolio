@@ -10,8 +10,10 @@ function About() {
         <div className="about-details">
           <img src={AboutPic} alt="about" className="about-photo" />
           <div className="details">
-            Our goal is to help business adapt to the new normal. We design and
-            build websites for businesses
+            At TapUs we pride ourselves in giving professionally competitive IT
+            consultation and web solutions to small and medium scale business.
+            If you plan to begin your business journey in the IT world but is
+            having trouble knowing where to start then we got you covered.
           </div>
         </div>
       </div>
