@@ -3,6 +3,10 @@ import "../css/Home.css";
 import Branding from "../images/branding-transparent.png";
 
 function Home() {
+  const scrollTo = () => {
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="home">
       <div className="home-contents">
@@ -11,7 +15,7 @@ function Home() {
             <img src={Branding} alt="tapusbranding" className="branding-img" />
           </h1>
         </div>
-        <button>Contact Us</button>
+        <button onClick={scrollTo}>Contact Us</button>
       </div>
     </div>
   );

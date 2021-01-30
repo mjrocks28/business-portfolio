@@ -68,7 +68,7 @@ button:hover {
   button {
     display: block;
     margin: 0.2em auto;
-    font-size: 0.5em;
+    font-size: 1em;
   }
 
   .title {

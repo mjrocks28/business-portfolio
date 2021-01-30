@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="socials-container">
             <div>
               <SocialIcon
-                url="https://facebook.com"
+                url="https://www.facebook.com/TapUs-104571551658174"
                 style={{ height: 25, width: 25 }}
                 label="Facebook Page"
               />

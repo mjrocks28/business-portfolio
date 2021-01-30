@@ -16,6 +16,43 @@
   width: 700px;
 }
 
+form {
+  width: 50%;
+  margin: auto;
+}
+
+/* Style inputs */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  width: 100%;
+  background-color: #4eb5f1;
+  box-shadow: 4px 5px 7px 0px rgb(0, 0, 0, 0.5);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type="submit"]:hover {
+  background-color: #4095c6;
+}
+
 @media all and (max-width: 850px) {
   .contact-image {
     width: 150px;
@@ -24,5 +61,21 @@
   .contact-title {
     color: rgb(0, 0, 0);
     font-size: 1.5em;
+  }
+  .contact-contents {
+    flex-direction: column;
+  }
+
+  form {
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    padding: 6px 10px;
   }
 }
